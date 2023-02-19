@@ -18,7 +18,7 @@ public class BuildTower {
     }
 
     public static void main(String[] args) {
-        String [] tower = BuildTower.towerBuilder(15);
+        String [] tower = BuildTower.towerBuilder(3);
         for (String floor : tower){
             System.out.println(floor);
         }
